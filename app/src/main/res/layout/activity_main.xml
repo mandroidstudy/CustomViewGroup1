@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="android.coolweather.com.customviewgroup.MainActivity">
+
+    <android.coolweather.com.customviewgroup.MyViewGroup
+        android:layout_width="400dip"
+        android:layout_height="400dip"
+        android:background="#666">
+        <TextView
+            android:layout_width="300dip"
+            android:layout_height="300dip"
+            android:text="0"
+            android:textSize="60sp"
+            android:background="#cf4040"/>
+        <TextView
+            android:layout_width="100dip"
+            android:layout_height="200dip"
+            android:textSize="60sp"
+            android:text="1"
+            android:background="#faf71f"/>
+        <TextView
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:textSize="60sp"
+            android:text="2"
+            android:background="#2b6ce6"/>
+        <TextView
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:textSize="60sp"
+            android:text="3"
+            android:background="#10e6db"/>
+    </android.coolweather.com.customviewgroup.MyViewGroup>
+</LinearLayout>
